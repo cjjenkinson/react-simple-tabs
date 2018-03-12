@@ -6,7 +6,7 @@
 [![NSP Status](https://nodesecurity.io/orgs/cameron-jenkinson-public-repos/projects/7f2d001b-c750-42cc-9b9f-f4ec3e08250c/badge)](https://nodesecurity.io/orgs/cameron-jenkinson-public-repos/projects/7f2d001b-c750-42cc-9b9f-f4ec3e08250c)
 [![Inline docs](http://inch-ci.org/github/vidocco/react-popup.svg?branch=master)](http://inch-ci.org/github/cjjenkinson/react-simple-tabs)
 
-# react-base-popup
+# React Simple Tabs
 
 A simple customizable tabs component for React applications.
 
