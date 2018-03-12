@@ -1,0 +1,64 @@
+{
+	"name": "react-simple-tabs",
+	"version": "1.0.0",
+	"description":
+		"A simple tabs component with minimal styling for React applications.",
+	"main": "./dist/index.js",
+	"scripts": {
+		"build": "webpack --config ./webpack.config.js",
+		"test":
+			"jest ./__tests__/react-popup.test.js --config ./__tests__/jest.config.js",
+		"update-snapshots": "jest -u"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/cjjenkinson/react-simple-tabs.git"
+	},
+	"keywords": ["react", "react.js", "tabs", "tab", "react", "component"],
+	"bugs": {
+		"url": "https://github.com/cjjenkinson/react-simple-tabs/issues"
+	},
+	"homepage": "https://github.com/cjjenkinson/react-simple-tabs#readme",
+	"author": "Cameron Jenkinson",
+	"license": "MIT",
+	"peerDependencies": {
+		"react": "^16.2.0"
+	},
+	"jest": {
+		"coverageDirectory": "./__tests__/__coverage__/",
+		"collectCoverage": true
+	},
+	"devDependencies": {
+		"babel-core": "^6.26.0",
+		"babel-eslint": "^8.0.3",
+		"babel-jest": "^22.1.0",
+		"babel-loader": "^7.1.2",
+		"babel-plugin-transform-class-properties": "^6.24.1",
+		"babel-preset-env": "^1.6.1",
+		"babel-preset-es2015": "^6.24.1",
+		"babel-preset-react": "^6.24.1",
+		"babel-preset-stage-0": "^6.24.1",
+		"css-loader": "^0.28.9",
+		"enzyme": "^3.3.0",
+		"enzyme-adapter-react-16": "^1.1.1",
+		"enzyme-to-json": "^3.3.1",
+		"eslint": "^4.13.1",
+		"eslint-config-react-app": "^2.0.1",
+		"eslint-plugin-flowtype": "^2.40.1",
+		"eslint-plugin-import": "^2.8.0",
+		"eslint-plugin-jsx-a11y": "^6.0.2",
+		"eslint-plugin-react": "^7.5.1",
+		"fs": "0.0.1-security",
+		"jest": "^22.1.4",
+		"react": "^16.2.0",
+		"react-dom": "^16.2.0",
+		"react-test-renderer": "^16.2.0",
+		"sinon": "^4.3.0",
+		"style-loader": "^0.20.2",
+		"uglifyjs-webpack-plugin": "^1.1.8",
+		"webpack": "^3.10.0"
+	},
+	"dependencies": {
+		"prop-types": "^15.6.0"
+	}
+}
