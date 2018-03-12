@@ -13,7 +13,12 @@ A simple customizable tabs component for React applications.
 ## Installation
 
 ```shell
-yarn --save react-simple-tabs
+yarn add react-simple-tabs
+```
+or with NPM
+
+```shell
+npm install --save react-simple-tabs
 ```
 
 ## Useage
