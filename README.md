@@ -1,4 +1,4 @@
-[![npm version](https://badge.fury.io/js/react-simple-tabs.svg)](https://badge.fury.io/js/react-simple-tabs)
+[![npm version](https://badge.fury.io/js/react-simple-tabs.svg)](https://badge.fury.io/js/react-simple-tabs-component)
 [![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](https://github.com/cjjenkinson/react-simple-tabs)
 [![Build Status](https://travis-ci.org/vidocco/react-simple-tabs.svg?branch=master)](https://travis-ci.org/cjjenkinson/react-simple-tabs)
 [![codecov](https://codecov.io/gh/cjjenkinson/react-simple-tabs/branch/master/graph/badge.svg)](https://codecov.io/gh/cjjenkinson/react-simple-tabs)
@@ -13,7 +13,7 @@ A simple customizable tabs component for React applications.
 ## Installation
 
 ```shell
-yarn add react-simple-tabs
+yarn add react-simple-tabs-component
 ```
 
 ## Useage
