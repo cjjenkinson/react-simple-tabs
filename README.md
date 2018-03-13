@@ -31,19 +31,31 @@ import { Tabs, Tab } from 'react-simple-tabs';
 
 The basic example out of the box looks like this:
 
-Add instances of tabs as children to the Tabs component wrapper and add the content (including React components) within each Tab instance.
 
-Change the starting default Tab index by updating the ```defaultTabIndex```
 
-The ```onTabChange``` prop accepts a callback function which is executed every time a tab has changed.
+Add the ```<Tabs />` component and each ```<Tab />``` within its wrapper, you can render React Components as well.
 
-Pass the associated ```title``` as a prop to each Tab and it will render within a ```<span>``` tag for each instance.
+Tabs API basic:
+
+```defaultTabIndex```
+Change the starting default tab index, default is 0.
+
+```onTabChange```
+Accepts a callback function which is executed every time a tab has changed.
+
+```title```
+String each Tab will render within each instance, default is 'Tab Title'
 
 ```js
 import React from 'react';
 import { Tabs, Tab } from 'react-simple-tabs';
 
 class MyComponent extends React.Component {
+
+  onTabChangeCallback = () => {
+    alert('Tab Changed!')
+  }
+
   render() {
     return (
       <Tabs
@@ -67,6 +79,7 @@ class MyComponent extends React.Component {
             Change your credit card and address we have on file.
           </p>
         </Tab>
+      </Tabs>
     )
   }
 }
@@ -76,11 +89,34 @@ class MyComponent extends React.Component {
 
 Add custom CSS classes to overide the style of the components, in-inline styles are not currently supported.
 
+Tabs API style overides:
+
+```wrapperClassName```
+Wrapping div that encapsulates instances of Tabs, each Tab and the Tab content.
+
+```className```
+Overall styling applied to the Tabs element
+
+```currentContentClassName```
+The current content rendered from the current Tab index
+
+```tabClassName```
+Overall styling applied to each Tab element
+
+```tabActiveclassName```
+Styling used for the active class for the active Tab
+
+
 ```js
 import React from 'react';
 import { Tabs, Tab } from 'react-simple-tabs';
 
 class MyComponent extends React.Component {
+
+  onTabChangeCallback = () => {
+    alert('Tab Changed!')
+  }
+
   render() {
     return (
       <Tabs
@@ -112,9 +148,32 @@ class MyComponent extends React.Component {
             Change your credit card and address we have on file.
           </p>
         </Tab>
+      </Tabs>
     )
   }
 }
+```
+
+### Default Props
+
+As a reference for passing custom properties, these are the default property values:
+
+```js
+Tabs.defaultProps = {
+  defaultTabIndex: 0,
+  wrapperClassName: 'tabs--outer-wrapper',
+  className: 'tabs',
+  currentContentClassName: 'tabs--current-content',
+  tabClassName: 'tab',
+  tabActiveClassName: 'is-active',
+  onTabChange: () => {},
+};
+
+Tab.defaultProps = {
+  title: 'Tab Title',
+  className: 'tab',
+  activeClassName: 'is-active',
+};
 ```
 
 ## Todo
