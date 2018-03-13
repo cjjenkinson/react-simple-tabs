@@ -24,7 +24,7 @@ const TabsComponent = () => {
   );
 };
 
-describe('React Simple Tabs', () => {
+describe('React Simple Tabs: Tabs', () => {
   it('Should render in the DOM correctly', () => {
     const component = mount(<TabsComponent />);
     expect(component.html()).toMatchSnapshot();
