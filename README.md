@@ -31,6 +31,7 @@ import { Tabs, Tab } from 'react-simple-tabs';
 
 The basic example out of the box looks like this:
 
+<img src="https://github.com/cjjenkinson/react-simple-tabs/blob/develop/assets/react-simple-tabs.png?raw=true" alt="React Simple Tabs" style="width: 300px;"/>
 
 
 Add the ```<Tabs />` component and each ```<Tab />``` within its wrapper, you can render React Components as well.
