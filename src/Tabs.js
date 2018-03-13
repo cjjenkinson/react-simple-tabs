@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import PropTypes from 'prop-types';
 
 import './Tabs.css';
+import './Tab.css';
 
 /**
  * A react component that renders instances of the <Tab /> component as children. When a Tab is changed
@@ -42,12 +43,19 @@ class Tabs extends Component {
 	 */
 	renderTabs() {
 	  const { currentTabIndex } = this.state;
-	  const { children, onTabChange } = this.props;
+	  const {
+	    children,
+	    tabClassName,
+	    tabActiveClassName,
+	    onTabChange,
+	  } = this.props;
 	  return React.Children.map(children, (child, index) => {
 	    return React.cloneElement(child, {
 	      onClick: this.handleTabChange,
 	      tabIndex: index,
 	      isActive: index === currentTabIndex,
+	      className: tabClassName,
+	      activeClassName: tabActiveClassName,
 	      onTabChange,
 	    });
 	  });
@@ -87,6 +95,8 @@ Tabs.defaultProps = {
   wrapperClassName: 'tabs--outer-wrapper',
   className: 'tabs',
   currentContentClassName: 'tabs--current-content',
+  tabClassName: 'tab',
+  tabActiveClassName: 'is-active',
   onTabChange: () => {},
 };
 
@@ -95,6 +105,8 @@ Tabs.propTypes = {
   wrapperClassName: PropTypes.string,
   className: PropTypes.string,
   currentContentClassName: PropTypes.string,
+  tabClassName: PropTypes.string,
+  tabCurrentContentClassName: PropTypes.string,
   onTabChange: PropTypes.func,
 };
 

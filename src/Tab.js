@@ -50,6 +50,8 @@ class Tab extends Component {
 
 Tab.defaultProps = {
   title: 'Tab Title',
+  className: 'tab',
+  activeClassName: 'is-active',
 };
 
 Tab.propTypes = {
