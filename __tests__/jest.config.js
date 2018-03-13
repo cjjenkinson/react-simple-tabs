@@ -6,4 +6,7 @@ module.exports = {
   coveragePathIgnorePatterns: ['dist/', 'node_modules/', '__mocks__/'],
   coverageReporters: ['text-summary', 'text', 'json', 'lcov'],
   rootDir: '..',
+  moduleNameMapper: {
+    '\\.(css)$': '../__mocks__/styleMock.js',
+  },
 };
