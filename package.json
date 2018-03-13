@@ -1,25 +1,20 @@
 {
 	"name": "react-simple-tabs",
 	"version": "1.0.0",
-	"description": "A simple tabs component with minimal styling for React applications.",
+	"description":
+		"A simple tabs component with minimal styling for React applications.",
 	"main": "./dist/index.js",
 	"scripts": {
 		"build": "webpack --config ./webpack.config.js",
-		"test": "jest ./__tests__/react-popup.test.js --config ./__tests__/jest.config.js",
+		"test":
+			"jest ./__tests__/tabs.test.js ./__tests__/tab.test.js --config ./__tests__/jest.config.js",
 		"update-snapshots": "jest -u"
 	},
 	"repository": {
 		"type": "git",
 		"url": "git+https://github.com/cjjenkinson/react-simple-tabs.git"
 	},
-	"keywords": [
-		"react",
-		"react.js",
-		"tabs",
-		"tab",
-		"react",
-		"component"
-	],
+	"keywords": ["react", "react.js", "tabs", "tab", "react", "component"],
 	"bugs": {
 		"url": "https://github.com/cjjenkinson/react-simple-tabs/issues"
 	},
