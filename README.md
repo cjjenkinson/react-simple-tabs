@@ -1,4 +1,4 @@
-[![npm version](https://badge.fury.io/js/react-simple-tabs.svg)](https://badge.fury.io/js/react-simple-tabs-component)
+[![npm version](https://badge.fury.io/js/react-simple-tabs-component.svg)](https://badge.fury.io/js/react-simple-tabs-component)
 [![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](https://github.com/cjjenkinson/react-simple-tabs)
 [![Build Status](https://travis-ci.org/vidocco/react-simple-tabs.svg?branch=master)](https://travis-ci.org/cjjenkinson/react-simple-tabs)
 [![codecov](https://codecov.io/gh/cjjenkinson/react-simple-tabs/branch/master/graph/badge.svg)](https://codecov.io/gh/cjjenkinson/react-simple-tabs)
@@ -19,7 +19,7 @@ yarn add react-simple-tabs-component
 ## Useage
 
 ```js
-import { Tabs, Tab } from 'react-simple-tabs';
+import { Tabs, Tab } from 'react-simple-tabs-component';
 ```
 
 ## Basic Example
@@ -40,7 +40,7 @@ Tabs API basic:
 
 ```js
 import React from 'react';
-import { Tabs, Tab } from 'react-simple-tabs';
+import { Tabs, Tab } from 'react-simple-tabs-component';
 
 class MyComponent extends React.Component {
 
@@ -95,7 +95,7 @@ Tabs API style overides:
 
 ```js
 import React from 'react';
-import { Tabs, Tab } from 'react-simple-tabs';
+import { Tabs, Tab } from 'react-simple-tabs-component';
 
 class MyComponent extends React.Component {
 
