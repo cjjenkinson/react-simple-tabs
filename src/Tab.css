@@ -1,0 +1,30 @@
+.tab {
+  display: block;
+  padding: 0;
+  border: 0;
+  border-bottom: 2px solid transparent;
+  border-radius: 0;
+  background: transparent;
+  color: #4d4d4d;
+  font-size: 14px;
+  line-height: 40px;
+  letter-spacing: .01em;
+  text-align: center;
+  text-decoration: none;
+  transition: background-color .1s ease-out;
+  user-select: none;
+  white-space: nowrap;
+  cursor: pointer;
+}
+
+.tab:hover {
+  color: #2B3DBA;
+}
+
+.is-active {
+  position: relative;
+  border-color: #2B3DBA;
+  color: #2B3DBA;
+  font-weight: 700;
+  letter-spacing: 0;
+}
