@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`React Simple Tabs: Tab Should contain is-active class if active 1`] = `"<div class=\\"tab is-active\\"><a><span>Billing</span></a></div>"`;
+
+exports[`React Simple Tabs: Tab Should invoke onTabChange if passed as props 1`] = `"<div class=\\"tab \\"><a><span>Tab Title</span></a></div>"`;
+
+exports[`React Simple Tabs: Tab Should not contain is-active class if not active 1`] = `"<div class=\\"tab \\"><a><span>Billing</span></a></div>"`;
+
+exports[`React Simple Tabs: Tab Should render in the DOM correctly 1`] = `"<div class=\\"tab \\"><a><span>Tab Title</span></a></div>"`;
+
+exports[`React Simple Tabs: Tab Should render title passed as props 1`] = `"<div class=\\"tab \\"><a><span>Billing</span></a></div>"`;
+
+exports[`React Simple Tabs: Tab should call onClick handler when tab is changed 1`] = `"<div class=\\"tab \\"><a><span>Tab Title</span></a></div>"`;
