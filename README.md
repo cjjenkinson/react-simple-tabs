@@ -15,11 +15,6 @@ A simple customizable tabs component for React applications.
 ```shell
 yarn add react-simple-tabs
 ```
-or with NPM
-
-```shell
-npm install --save react-simple-tabs
-```
 
 ## Useage
 
@@ -32,19 +27,15 @@ import { Tabs, Tab } from 'react-simple-tabs';
 The basic example out of the box looks like this:
 
 
-
-Add the ```<Tabs />` component and each ```<Tab />``` within its wrapper, you can render React Components as well.
+Add the ```<Tabs />``` component and then add ```<Tab />```  components within the wrapper. You can render React Components as well as HTML mark-up.
 
 Tabs API basic:
 
-```defaultTabIndex```
-Change the starting default tab index, default is 0.
+- ```defaultTabIndex``` - Change the starting default tab index, default is 0.
 
-```onTabChange```
-Accepts a callback function which is executed every time a tab has changed.
+- ```onTabChange``` - Accepts a callback function which is executed every time a tab has changed.
 
-```title```
-String each Tab will render within each instance, default is 'Tab Title'
+- ```title``` - String each Tab will render within each instance, default is 'Tab Title'
 
 ```js
 import React from 'react';
@@ -91,21 +82,15 @@ Add custom CSS classes to overide the style of the components, in-inline styles 
 
 Tabs API style overides:
 
-```wrapperClassName```
-Wrapping div that encapsulates instances of Tabs, each Tab and the Tab content.
+- ```wrapperClassName``` - Wrapping div that encapsulates instances of Tabs, each Tab and the Tab content.
 
-```className```
-Overall styling applied to the Tabs element
+- ```className``` - Overall styling applied to the Tabs element
 
-```currentContentClassName```
-The current content rendered from the current Tab index
+- ```currentContentClassName``` - The current content rendered from the current Tab index
 
-```tabClassName```
-Overall styling applied to each Tab element
+- ```tabClassName``` - Overall styling applied to each Tab element
 
-```tabActiveclassName```
-Styling used for the active class for the active Tab
-
+- ```tabActiveclassName``` - Styling used for the active class for the active Tab
 
 ```js
 import React from 'react';
