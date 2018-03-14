@@ -26,7 +26,7 @@ import { Tabs, Tab } from 'rs-tabs';
 
 The basic example out of the box looks like this:
 
-<img src="https://github.com/cjjenkinson/react-simple-tabs/blob/develop/assets/react-simple-tabs.png?raw=true" alt="React Simple Tabs" style="width: 300px;"/>
+<img src="https://github.com/cjjenkinson/react-simple-tabs/blob/develop/assets/react-simple-tabs.png?raw=true" alt="React Simple Tabs" />
 
 Add the ```<Tabs />``` component and then add ```<Tab />```  components within the wrapper. You can render React Components as well as HTML mark-up.
 
